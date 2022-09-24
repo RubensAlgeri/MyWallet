@@ -13,7 +13,6 @@ export default function TelaRegistrar() {
   const { token } = userData;
   const [entrada, setEntrada] = useState({ valor: "", descricao: "" });
   const { valor, descricao } = entrada;
-  console.log(typeof entrada.valor);
 
   function enviar(event) {
     event.preventDefault();
